@@ -31,6 +31,11 @@
 $ npm install
 ```
 
+Copy `.env.example` to `.env` and set `MONGODB_URI` to your MongoDB connection
+string. The example uses a local MongoDB server with the `auth-service` database.
+Ensure MongoDB is running before starting the app. In production, provide
+`MONGODB_URI` through the environment. The app requires this variable at startup.
+
 ## Compile and run the project
 
 ```bash
